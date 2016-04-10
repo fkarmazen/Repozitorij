@@ -1,0 +1,166 @@
+body{font-family: 'Lora', serif; font-size:1.125em}
+h1,h2{font-family: 'Open Sans', sans-serif;font-size:2.250em;}
+
+body{
+  margin:0px;
+   background-image: url("predstave/theater.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+
+header{
+  height: 70px;
+  //box-sizing: border-box;
+  background: linear-gradient(to bottom, rgba(251,223,147,1) 0%, rgba(255,191,41,1) 18%, rgba(207,148,0,1) 49%, rgba(250,191,53,1) 83%, rgba(250,191,53,1) 100%);
+}
+
+
+// gumb koji se otvara
+.button{
+  float: right;
+  width: 60px;
+  height: 70px;
+  //background: linear-gradient(#FFF,#DDD);
+  border-radius: 2px;
+  padding: 2px 5px;
+  cursor: pointer;
+  transition: border 0.3s linear 0s;
+}
+
+.button > div{
+  width: 60px;
+  height: 11px;
+  background: #333;
+  margin: 3px 0px;
+  border-radius: 4px;
+  transition: background 0.3s linear 0s;
+}
+
+#nav{
+  position: fixed;
+  display: block;
+  text-align:center;
+  right: -460px;
+  top: 60px;
+  width: 460px;
+  height: 0px;
+  background: #333;
+  transition: right 0.3s linear 0s;
+}
+
+#nav  li a{
+  text-decoration: none;
+  font-style: none;
+  color: #FF0000;
+}
+
+.logo{
+	width: 205px;
+	height:70px;
+}
+
+.logo img{
+  width: 205px;
+  height:70px;
+}
+
+.main{
+  min-height: 520px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+
+.glavni_text{
+  padding: 40px;
+}
+
+.main_onama{	
+  background: #ffffff;
+}
+
+
+footer{
+	margin-top:-18px;
+	min-height:25px;	
+	clear: both;
+	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(71,71,71,1) 12%,
+		rgba(59,59,59,1) 26%, rgba(46,45,46,1) 41%, rgba(44,44,44,1) 45%, rgba(0,0,0,1) 56%, 
+		rgba(17,17,17,1) 75%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	color:white;
+	text-align: center;
+}
+
+
+table{
+  
+  
+}
+.tg{
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#333;
+  margin:0px auto;
+}
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  min-height: 20px;
+  min-width: 20px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+  color:#333;
+  background-color:#fff;
+  }
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  min-height: 20px;
+  min-width: 20px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#aaa;
+  color:#fff;
+  background-color:#f38630;
+}
+.tg .tg-lqy6{
+  text-align:right;
+  vertical-align:top
+}
+.tg .tg-yw4l{
+  vertical-align:top
+}
+@media screen and (max-width: 767px)
+ {
+  .tg {width: auto !important;}
+  .tg col {width: auto !important;}
+  .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}
+}
+
+
+
+
+
+<!-- O nama stranica -->
+
+
+
+
+
+
+
+
+
+
+<!klikabilno sidrište za redirection stranice
+<!--<a href="#" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+    <img src="../images/bottle.jpg" alt="bottle" class="thumbnails" />
+</a>-->

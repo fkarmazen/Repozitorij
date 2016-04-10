@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>O nama</title>
+		
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" type="text/css" href="stil.css">
+		<link rel="stylesheet" href="css/grid.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		
+
+		<script>
+				function toggleButton(){
+					var nav = document.getElementById("nav");
+					nav.style.height = window.innerHeight - 60 + "px";
+					if(nav.style.right == "0px"){
+						nav.style.right = "-460px";
+					} else {
+						nav.style.right = "0px";
+					}
+				}
+		</script>
+	</head>
+	
+	<body>
+		<div class="row">
+			<header>
+
+				<div class="button" onclick="toggleButton()">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+
+				<nav id="nav">
+					<ul>
+						<li><a href="kazaliste.html">Home</a></li>
+						<li><a href="onama.html">O nama</a></li>
+						<li><a href="#">Kupovina - USKORO</a></li>
+					</ul>
+						
+				</nav>
+				
+				<div class="logo">
+					<a href="kazaliste.html" ><img src="predstave/logo.png" alt="kazaliste logo"></img></a>
+				</div>
+			</header>
+
+			<div class="main_onama">
+				<div class="glavni_text_onama column column-10" >
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tortor quis justo 
+					auctor tempor a sed diam. Aenean nec facilisis libero. Morbi a sem a ligula mollis
+					viverra. Duis est nibh, volutpat ac lacus nec, hendrerit tristique dolor. Morbi a 
+					risus ut sem fringilla semper. Ut in enim ex. Sed maximus elit suscipit elementum 
+					tincidunt. Ut tincidunt ut augue ac sollicitudin. Proin sit amet dui justo. Etiam 
+					fringilla mauris lacus, a mollis eros sodales fringilla. Suspendisse sit amet bibendum 
+					justo, at volutpat nibh. Sed vel suscipit orci.
+					</br></br>
+					Sed vel ligula ullamcorper, pellentesque urna sit amet, accumsan magna. Mauris eu
+					nulla in lorem pellentesque congue. Nulla facilisi. Vivamus aliquet leo risus, at
+					fringilla eros hendrerit ornare. Aliquam lorem metus, porta nec erat in, facilisis
+					congue erat. Mauris et aliquet lorem. Duis tincidunt eleifend tortor, id iaculis 
+					tortor porta qsuis. Mauris maximus nisi in enim interdum finibus. Nullam sit amet maximus
+					nibh. Nunc quis sagittis nisi. Morbi egestas tempor tortor, sed imperdiet odio
+					sodales ut. Vivamus auctor nisl sit amet efficitur ullamcorper.</p>
+				</div>
+			</div>
+
+			<footer class="onama_footer">
+				<p>Copyright Filip Karmazen d.o.o.</p>
+			</footer>
+		</div>
+
+		
+	</body>
+	
+</html>
